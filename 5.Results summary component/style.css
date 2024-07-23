@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  /*primary*/
+  --Lightred: hsl(0, 100%, 67%);
+  --Orangeyyellow: hsl(39, 100%, 56%);
+  --Greenteal: hsl(166, 100%, 37%);
+  --Cobaltblue: hsl(234, 85%, 45%);
+
+  /*gradients*/
+  --Lightslateblue: hsl(252, 100%, 67%);
+  --Lightroyalblue: hsl(241, 81%, 54%);
+  --Violetblue: hsla(256, 72%, 46%, 1);
+  --Persianblue: hsla(241, 72%, 46%, 0);
+
+  /*Neutral*/
+  --White : hsl(0, 0%, 100%);
+  --Paleblue: hsl(221, 100%, 96%);
+  --Lightlavender: hsl(241, 100%, 89%);
+  --Darkgrayblue: hsl(224, 30%, 27%);
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-color:var(--White);
+}
+
+div.result-page{
+    background:linear-gradient(var(--Lightslateblue),var(--Lightroyalblue));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    height: 380px;
+    margin-top: 200px;
+    margin-left: 450px;
+    border-radius: 25px;
+    position:absolute;
+}
+
+h3{
+  color: var(--Lightlavender);
+  padding-top: 1.5rem;
+}
+
+.circle{
+  width: 150px;
+  height: 150px;
+  background-image:linear-gradient(var(--Violetblue),var(--Persianblue));
+  border-radius: 50%;
+  margin-top: 1.5rem;
+}
+
+#head1{
+  color:var(--White);
+  font-size:3.5rem;
+  text-align: center;
+  padding-top:2rem;
+  font-weight: 800;
+}
+
+#para1{
+  color: var(--Lightlavender);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight:700;
+  font-size:15px;
+}
+
+#Great{
+  color: var(--White);
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+#para2{
+  color: var(--Lightlavender);
+  margin: 0.5rem 2.5rem;
+  text-align: center;
+  font-size:14px;
+  font-weight: 700;
+}
+
+div.bg-card{
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 380px;
+  margin-top: 230px;
+  margin-left:730px;
+  border-radius: 0px 20px 20px 0px;
+  box-shadow:20px 20px 25px 0px hsl(221, 100%, 96%,1) ;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position:inherit;
+}
+
+#head2{
+  font-size:large;
+  color: var(--Darkgrayblue);
+  font-weight: bolder;
+  padding-bottom:1rem;
+}
+ 
+button.reaction{
+  background-color:hsl(0, 100%, 67%,0.05);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  width: 230px;
+  height: 45px;
+}
+.img1{
+  width: 16px;
+  height: 20px;
+}
+
+.red{
+  color: var(--Lightred);
+  font-size: 13px;
+  font-weight: 600;
+  padding-right: 2.6rem;
+  padding-left: 8px;
+}
+
+button.memory{
+  background-color: hsl(39, 100%, 56%,0.05);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  width: 230px;
+  height: 45px;
+  margin-top: 1rem;
+}
+.img2{
+  width: 16px;
+  height: 20px;
+}
+
+.yellow{
+  color:var(--Orangeyyellow);
+  font-size: 13px;
+  font-weight: 600;
+  padding-right: 2.8rem;
+  padding-left: 8px;
+}
+
+button.verbal{
+  background-color: hsl(166, 100%, 37%,0.05);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  width: 230px;
+  height: 45px;
+  margin-top: 1rem; 
+}
+.img3{
+  width: 16px;
+  height: 20px;
+}
+.green{
+  color:var(--Greenteal);
+  font-size: 13px;
+  font-weight: 600;
+  padding-right: 3.5rem;
+  padding-left: 8px;
+}
+
+button.visual{
+  background-color:hsl(234, 85%, 45%,0.05);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  width: 230px;
+  height: 45px;
+  margin-top: 1rem; 
+}
+.img4{
+  width: 16px;
+  height: 20px;
+}
+
+.violet{
+  color:var(--Cobaltblue);
+  font-size: 13px;
+  font-weight: 600;
+  padding-right: 3.5rem;
+  padding-left: 8px;
+}
+
+.mark-violet{
+  color:hsl(224, 30%, 27%); 
+  font-weight: 700;
+  padding-left: 25px;
+}
+
+.total-gray{
+  color:gray
+}
+
+.last{
+  background-color: hsl(224, 30%, 27%,1);
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  width: 230px;
+  height: 40px;
+  margin-top: 1rem;
+  color: var(--White);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.last:hover{
+  cursor: pointer;
+  background:linear-gradient(var(--Lightslateblue),var(--Lightroyalblue));
+}
+
